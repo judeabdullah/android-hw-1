@@ -1,0 +1,16 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println("Hello World");
+        x("jude",16);
+     }
+     public static void x (String name , int age){
+         if (age >= 18){
+             System.out.print("congratulations " + name + " you will get your driving license" );
+         }
+         else {
+              System.out.println("unfortunately " + name  + " you are still young to get your driving license");
+         }
+     }
+    
+}
